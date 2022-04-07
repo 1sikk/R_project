@@ -8,7 +8,7 @@ library(arules)
 library(httr)
 library(XML)
 
-setwd("c:/Rwork/Data")
+setwd('/Users/sik/Desktop/')
 facebook <- file("facebook_bigdata.txt",encoding = "UTF-8")
 facebook_data <- readLines(facebook)
 # 세종 사전에 단어 추가하기

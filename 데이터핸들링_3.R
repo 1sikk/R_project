@@ -4,7 +4,7 @@ library(reshape2)
 # dcast() 함수 활용
 # 형식 dcast(데이터셋, 앞변수 ~뒤변수, 적용함수)
 getwd()
-setwd('E:/BigDate/R programing/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 data <- read.csv('data.csv')
 data
 wide <- dcast(data, Customer_ID ~ Date, sum)

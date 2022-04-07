@@ -19,7 +19,7 @@ library(wordcloud)
 # 1. facebook_bidata.txt 파일 실습
 rm(list = ls())
 getwd()
-setwd('E:/BigDate/R programing/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 facebook <- file('facebook_bigdata.txt', encoding = 'UTF-8')
 facebook_data <- readLines(facebook)
 head(facebook_data)

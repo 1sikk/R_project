@@ -1,6 +1,6 @@
 # 단순선형 회귀분석
 getwd()
-setwd('C:/Temp/Rwork/dataset2/dataset2')
+setwd('/Users/sik/Desktop/')
 product <- read.csv('product.csv', header = TRUE)
 str(product)
 

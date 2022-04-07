@@ -2,8 +2,7 @@
 
 # 범주형 VS 범주형 데이터 분포 시각화
 getwd()
-setwd('C:/Temp/Rwork/dataset3/dataset3')
-setwd('E:/BigDate/R programing/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 soongyu <- read.csv('new_data.csv', header = T)
 str(soongyu)
 # 변경된 거주지역과 성별 대상으로 빈도수 구하기
@@ -105,7 +104,7 @@ user_pay_data[c(1:10), c(1,7:11,16)]
 # 표본추출
 # 정제된 데이터 저장
 print(user_pay_data)
-setwd('C:/rwork/')
+setwd('/Users/sik/Desktop/')
 write.csv(user_pay_data, 'cleanData.csv', quote = F, row.names = F)
 
 data <- read.csv('cleanData.csv', header = TRUE)

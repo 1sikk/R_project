@@ -13,7 +13,7 @@ library(dplyr)
 # RHS(Right Hand Side) 변수라고 한다.
 
 getwd()
-setwd('E:/BigDate/R programing/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 csvgrade <- read.csv('grade_csv.csv')
 csvgrade %>% head() %>% summary()
 

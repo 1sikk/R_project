@@ -1,6 +1,5 @@
 # 데이터 셋 가져오기
-setwd('C:/Temp/Rwork/dataset2/dataset2')
-setwd('E:/BigDate/R programing/dataset2/dataset2')
+setwd('/Users/sik/Desktop/')
 data <- read.csv("descriptive.csv",header = TRUE)
 head(data)
 # 데이터 특성 보기

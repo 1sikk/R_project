@@ -1,6 +1,6 @@
 # 시계열 분석
 getwd()
-setwd()
+setwd('/Users/sik/Desktop/')
 
 # 비정상성 시계열을 정상성 시계열로 변경
 # 1. 데이터셋 가져오기

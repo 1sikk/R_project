@@ -24,7 +24,7 @@ rpart.plot(rpart_model)
 
 # 2. 날씨 데이터를 이용하여 비(rain)유무 예측
 getwd()
-setwd('E:/BigDate/R programing/dataset4/dataset4')
+setwd('/Users/sik/Desktop/')
 
 # 2-1 데이터 가져오기
 weather <- read.csv('weather.csv', header = TRUE)

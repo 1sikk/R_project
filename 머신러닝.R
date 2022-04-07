@@ -10,7 +10,7 @@ install.packages('e1071')
 install.packages('caret')
 
 library(e1071)
-setwd('E:/BigDate/R programing/dataset4/dataset4')
+setwd('/Users/sik/Desktop/')
 data <- read.csv(file = "heart.csv", header = T)
 data
 

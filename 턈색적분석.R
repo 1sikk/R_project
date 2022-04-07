@@ -1,8 +1,7 @@
 # 데이터 가져오기 및 전체 데이터 보기
 
 getwd()
-setwd('C:/Temp/Rwork/dataset3/dataset3')
-setwd('E:/BigDate/R programing/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 getwd()
 
 das <- read.csv('dataset.csv', header = T)

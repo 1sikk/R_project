@@ -37,7 +37,7 @@ plot(hc)
 
 # 3. 신입사원의 면접시험 결과를 군집 분석
 getwd()
-setwd('E:/BigDate/R programing/dataset4/dataset4')
+setwd('/Users/sik/Desktop/')
 install.packages('RDX3')
 interview <- read.csv('interview.csv', header = TRUE)
 names(interview)

@@ -21,7 +21,7 @@ ts.plot(AirPassengers, exp(predicted$pred), lty = c(1,2))
 # 향후 10년(120개월)간의 데이터 예측 후 기존데이터와 예측치를 이어 그래프 표현
 
 getwd()
-setwd('E:/BigDate/R programing/dataset2/dataset2')
+setwd('/Users/sik/Desktop/')
 library(forecast)
 ex_data <- read.csv('example.csv', header = T)
 plot(ex_data)

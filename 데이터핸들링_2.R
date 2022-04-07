@@ -1,5 +1,5 @@
 getwd()
-setwd('C:/Temp/Rwork/dataset3/dataset3')
+setwd('/Users/sik/Desktop/')
 # 데이터프레임 병합
 # inner_join()함수
 # 형식: inner_join(dataframe1, dataframe2, 공통변수)
